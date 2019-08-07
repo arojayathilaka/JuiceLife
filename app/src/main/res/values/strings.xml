@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Delivery Details</string>
+    <string name="fname">first name*</string>
+    <string name="lname">last name*</string>
+    <string name="email">Email*</string>
+    <string name="address">Address*</string>
+    <string name="save">Save and Continue</string>
+    <string name="del_now">Now</string>
+    <string name="del_late">Later</string>
+    <string name="del_time">Time</string>
+    <string name="del_date">Date</string>
+    <string name="set_del">Set Delivery Time</string>
+    <string name="price">Price</string>
+    <string name="taxes">Taxes</string>
+    <string name="del_charge">"Delivery Charge     "</string>
+    <string name="tot_price">Total Price</string>
+    <string name="confirm_delivery">Confirm Delivery</string>
+    <string name="title_activity_del_city">delCity</string>
+    <string-array name="cities">
+        <item>Waligama</item>
+        <item>Galle</item>
+        <item>Godagama</item>
+        <item>Matara</item>
+    </string-array>
+    <string name="select_city">Select Your City</string>
+    <string name="back">Go Back</string>
+</resources>
