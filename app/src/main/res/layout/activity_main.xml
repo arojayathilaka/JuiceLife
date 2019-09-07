@@ -76,7 +76,7 @@
         android:layout_height="118dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="270dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,19 +87,21 @@
         <RadioButton
             android:id="@+id/delNow"
             android:layout_width="match_parent"
-            android:layout_height="2dp"
+            android:layout_height="1dp"
             android:layout_weight="1"
             android:checked="true"
             android:clickable="false"
+            android:onClick="changeFragment"
             android:text="@string/del_now"
             android:textColorLink="#0051B337" />
 
         <RadioButton
             android:id="@+id/delLate"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="3dp"
             android:layout_weight="1"
-            android:checked="true"
+            android:checked="false"
+            android:onClick="changeFragment"
             android:text="@string/del_late" />
     </RadioGroup>
 
@@ -120,7 +122,7 @@
         android:id="@+id/saveDelDetails"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="32dp"
         android:background="@drawable/button_background"
         android:onClick="onClickSaveDel"
         android:text="@string/save"
@@ -133,16 +135,17 @@
     <fragment
         android:id="@+id/fragDelTime"
         android:name="com.example.juicelife.deliveryTime"
-        android:layout_width="0dp"
-        android:layout_height="115dp"
+        android:layout_width="366dp"
+        android:layout_height="83dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="108dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout="@layout/fragment_deliver_now" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

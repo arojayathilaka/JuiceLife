@@ -1,7 +1,5 @@
 package com.example.juicelife;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -13,7 +11,6 @@ import android.view.ViewGroup;
 
 
 public class deliveryTime extends Fragment {
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

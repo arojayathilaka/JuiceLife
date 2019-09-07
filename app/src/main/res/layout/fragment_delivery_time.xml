@@ -7,8 +7,9 @@
     android:orientation="vertical"
     tools:context=".deliveryTime">
 
+
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/delDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -16,10 +17,12 @@
         android:inputType="date" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/delTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/del_time"
         android:inputType="time" />
+
+
 </LinearLayout>

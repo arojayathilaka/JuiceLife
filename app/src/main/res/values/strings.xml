@@ -7,8 +7,8 @@
     <string name="save">Save and Continue</string>
     <string name="del_now">Now</string>
     <string name="del_late">Later</string>
-    <string name="del_time">Time</string>
-    <string name="del_date">Date</string>
+    <string name="del_time">"Time*  5:34 "</string>
+    <string name="del_date">Date*  DD/MM</string>
     <string name="set_del">Set Delivery Time</string>
     <string name="price">Price</string>
     <string name="taxes">Taxes</string>

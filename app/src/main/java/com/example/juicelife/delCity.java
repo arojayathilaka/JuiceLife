@@ -15,6 +15,9 @@ public class delCity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_del_city);
 
+        getSupportActionBar().setTitle("Add your city");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         Spinner spinner = (Spinner) findViewById(R.id.selectCity);
 
         ArrayAdapter<String> myAdapter = new ArrayAdapter<String>(delCity.this,
