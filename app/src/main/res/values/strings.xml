@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="Choose">Choose A Payment Method</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="cardPayment">Card Payment</string>
+    <string name="EnterCard_No">Enter number</string>
+    <string name="EnterCode">3 or 4 digits code</string>
+    <string name="fName">Full Name</string>
+    <string name="telephoneNo">Tel</string>
+    <string name="eMail">E-mail</string>
+    <string name="deliveryAddress">Delivery Address</string>
+    <string name="okButton">OK</string>
+    <string name="CardName">Name On Card</string>
+    <string name="CardNumbr">Card Number</string>
+    <string name="price">LKR 1500.00</string>
+    <string name="Expiration">Expiration</string>
+    <string name="cvc">CVC/CW</string>
+    <string name="payNowbutton">Pay Now</string>
+    <string name="mastercard">Master Card</string>
+    <string name="visaCard">visa</string>
+    <string name="cashpayment">Cash</string>
+    <string name="cardpayment">card</string>
+    <string name="moneycash">cash</string>
+
+    <string-array name="names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+</resources>
