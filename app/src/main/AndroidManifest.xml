@@ -11,11 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".delCity"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".ConfirmDelivery"
-            android:parentActivityName=".delCity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".DeliveryDetails"
+            android:parentActivityName=".DelCity"></activity>
+        <activity android:name=".Bill"
+            android:parentActivityName=".DeliveryDetails"/>
+        <activity android:name=".DelCity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
