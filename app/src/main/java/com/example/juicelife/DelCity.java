@@ -77,24 +77,24 @@ public class DelCity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder alert = new AlertDialog.Builder(DelCity.this);
-                    alert.setTitle("Your Delivery Charge is Rs. " + delChar);
-                    alert.setMessage("Do you wish to continue?");
-                    alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
-                            Intent intent = new Intent(DelCity.this, DeliveryDetails.class );
-                            String deliveryCharge = delCharge.getText().toString();
-                            intent.putExtra(EXTRA_CHARGE, deliveryCharge);
-                            startActivity(intent);
-                        }
-                    });
-                    alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialogInterface, int i) {
+                alert.setTitle("Your Delivery Charge is Rs. " + delChar);
+                alert.setMessage("Do you wish to continue?");
+                alert.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Intent intent = new Intent(DelCity.this, DeliveryDetails.class );
+                        String deliveryCharge = delCharge.getText().toString();
+                        intent.putExtra(EXTRA_CHARGE, deliveryCharge);
+                        startActivity(intent);
+                    }
+                });
+                alert.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
 
-                        }
-                    });
-                    alert.create().show();
+                    }
+                });
+                alert.create().show();
             }
         });
 

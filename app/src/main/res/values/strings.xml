@@ -1,15 +1,11 @@
 <resources>
     <string name="app_name">Delivery Details</string>
-    <string name="fname">first name*</string>
-    <string name="lname">last name*</string>
+    <string name="fname">First name*</string>
+    <string name="lname">Last name*</string>
     <string name="email">Email*</string>
     <string name="address">Address*</string>
-    <string name="save">Save and Continue</string>
-    <string name="del_now">Now</string>
-    <string name="del_late">Later</string>
-    <string name="del_time">Time</string>
-    <string name="del_date">Date</string>
-    <string name="set_del">Set Delivery Time</string>
+    <string name="save">Save</string>
+    <string name="set_del">Set Delivery Time (optional)</string>
     <string name="price">Price</string>
     <string name="taxes">Taxes</string>
     <string name="del_charge">"Delivery Charge     "</string>
@@ -24,4 +20,62 @@
     </string-array>
     <string name="select_city">Select Your City</string>
     <string name="back">Go Back</string>
+    <string name="tax">25.00</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="con_no">Contact Number*</string>
+    <string name="cont">continue</string>
+    <string name="name">Name</string>
+    <string name="txtAddress">Address</string>
+    <string name="textConNo">Contact No</string>
+    <string name="go_back">go back</string>
+    <string name="view">view</string>
+    <string name="update">update</string>
+    <string name="city_image">City image</string>
+    <string name="deli_image">Delivery image</string>
+    <string name="cancel">cancel</string>
+    <string name="add">add</string>
+    <string name="Choose">Choose A Payment Method</string>
+    <string name="cash_on_delivery">Cash on delivery</string>
+    <string name="cardPayment">Card Payment</string>
+    <string name="EnterCard_No">Enter number</string>
+    <string name="EnterCode">3 or 4 digits code</string>
+    <string name="fName">Full Name</string>
+    <string name="telephoneNo">Tel</string>
+    <string name="eMail">E-mail</string>
+    <string name="deliveryAddress">Delivery Address</string>
+    <string name="okButton">OK</string>
+    <string name="CardName">Name On Card</string>
+    <string name="CardNumbr">Card Number</string>
+    <string name="price1">LKR 1500.00</string>
+    <string name="Expiration">Expiration</string>
+    <string name="cvc">CVC/CW</string>
+    <string name="payNowbutton">Pay Now</string>
+    <string name="mastercard">Master Card</string>
+    <string name="visaCard">visa</string>
+    <string name="cashpayment">Cash</string>
+    <string name="cardpayment">card</string>
+    <string name="moneycash">cash</string>
+
+    <string-array name="names">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="Year">
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
 </resources>
