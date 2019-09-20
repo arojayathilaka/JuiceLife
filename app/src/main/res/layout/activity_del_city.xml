@@ -77,14 +77,13 @@
         android:onClick="onClickSaveDel"
         android:text="@string/save"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/goBack"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <Button
+    <!--<Button
         android:id="@+id/goBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -97,7 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/saveDel2" />
+        app:layout_constraintTop_toBottomOf="@+id/saveDel2" />-->
 
     <ImageView
         android:id="@+id/imageView7"
