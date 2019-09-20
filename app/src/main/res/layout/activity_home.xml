@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.juicelife.Home">
+
+
+    <Button
+        android:id="@+id/partyreservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonbackground"
+        android:text="@string/partyreservation"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <ImageButton
+        android:id="@+id/juice"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/Juices"
+        android:onClick="OnClickJuice"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mocktails"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/juice" />
+
+    <TextView
+        android:id="@+id/Juices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/Juices"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+    <ImageButton
+        android:id="@+id/dessert"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@android:color/holo_red_light"
+        android:contentDescription="@string/Desserts"
+        android:onClick="OnClickDessert"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/juice"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/desserts" />
+
+    <TextView
+        android:id="@+id/Dessert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/Desserts"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="36sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Juices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.726"
+        app:layout_constraintStart_toEndOf="@+id/Juices" />
+
+    <ImageButton
+        android:id="@+id/mocktails"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@android:color/holo_red_light"
+        android:contentDescription="@string/Mocktail"
+        android:onClick="OnClickMocktails"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/smoothies"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/juice"
+        app:layout_constraintVertical_bias="0.34"
+        app:srcCompat="@drawable/mocktails" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Mocktail"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="36sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/smoothies"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:background="@android:color/holo_red_light"
+        android:contentDescription="@string/smoothie"
+        android:onClick="OnClickSmoothies"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mocktails"
+        app:layout_constraintTop_toBottomOf="@+id/dessert"
+        app:layout_constraintVertical_bias="0.34"
+        app:srcCompat="@drawable/smoothies" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/Smoothies"
+        android:textColor="@color/cardview_dark_background"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="177dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41"
+        app:srcCompat="@drawable/juicelifelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

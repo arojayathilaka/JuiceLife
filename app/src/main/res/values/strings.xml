@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Delivery Details</string>
+    <string name="app_name">JuiceLife</string>
     <string name="fname">First name*</string>
     <string name="lname">Last name*</string>
     <string name="email">Email*</string>
@@ -78,4 +78,49 @@
         <item>2021</item>
         <item>2022</item>
     </string-array>
+    <string name="Juices">Juices</string>
+    <string name="Desserts">Desserts</string>
+    <string name="Mocktail">Mocktails</string>
+    <string name="Smoothies">Smoothies</string>
+    <string name="Price">Price :-</string>
+    <string name="mangoprice">540 LKR</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="mangojuice">Mango Juice</string>
+    <string name="addcart">Add To Cart</string>
+    <string name="mangoImg">mangoimage</string>
+    <string name="papayaImg">papayaimage</string>
+    <string name="papayajuice">Papaya Juice</string>
+    <string name="papayaprice">480 LKR</string>
+    <string name="showcart">Show Cart</string>
+    <string name="shoppingcart">Shopping Cart</string>
+    <string name="amount">Total Goods</string>
+    <string name="tamountprice">1250 LKR</string>
+    <string name="updatecart">Update Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="passion">Passion Fruit Juice</string>
+    <string name="passionImg">passionimage</string>
+    <string name="passionprice">660 LKR</string>
+    <string name="bananaboatImg">bananaboatimage</string>
+    <string name="bananaboat">Banana Boat</string>
+    <string name="bananaboatprice">600 LKR</string>
+    <string name="brownie">Brownie</string>
+    <string name="brownieImg">brownieimage</string>
+    <string name="brownietxt">Brownie</string>
+    <string name="brownieprice">700 LKR</string>
+    <string name="chocolatepieimg">chocolatepieimage</string>
+    <string name="chocolatepietext">Chocolate Pie</string>
+    <string name="mocktailtext">Mocktails</string>
+    <string name="coconutmocktailtext">Coconut Mocktail</string>
+    <string name="strawberrymocktail">Strawberry Mocktail</string>
+    <string name="mangomocktailtext">Mango Mocktail</string>
+    <string name="smoothie">Smoothies</string>
+    <string name="raspberry">Raspberry Smoothie</string>
+    <string name="pinapple">Pineapple Smoothie</string>
+    <string name="applesmoothie">Apple Smoothie</string>
+    <string name="emptycart">Empty Cart</string>
+    <string name="total">3160 LKR</string>
+    <string name="products">Products</string>
+    <string name="welcome">Welcome To JuiceLife!</string>
+    <string name="partyreservation">Party Reservation</string>
 </resources>

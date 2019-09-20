@@ -37,6 +37,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.juicelife.Smoothies"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Smoothies">
+        </activity>
+        <activity
+            android:name="com.example.juicelife.Mocktails"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Mocktail"/>
+        <activity
+            android:name="com.example.juicelife.Dessert"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Desserts"/>
+        <activity
+            android:name="com.example.juicelife.Cart"
+            android:parentActivityName="com.example.juicelife.Juice"/>
+        <activity
+            android:name="com.example.juicelife.Juice"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Juices"/>
+        <activity
+            android:name="com.example.juicelife.Home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
