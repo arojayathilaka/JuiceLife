@@ -123,4 +123,33 @@
     <string name="products">Products</string>
     <string name="welcome">Welcome To JuiceLife!</string>
     <string name="partyreservation">Party Reservation</string>
+
+    <string name="app_name">sampleFirebase</string>
+    <string name="BtnSave">Add</string>
+    <string name="BtnShow">View</string>
+    <string name="BtnUpdate">Update</string>
+    <string name="BtnDelete">Cancel</string>
+    <string name="BtnDate">Date</string>
+    <string name="TxtDate"></string>
+    <string name="TxtMain">Celebrate Your Amazing Events</string>
+    <string name="TxtMain2">With JUICE LIFE</string>
+
+    <string name="TxtReserve">Reserve Now!</string>
+    <string name="BtnHallIntent">Show Hall Details</string>
+    <string name="Txta1">Hall A</string>
+    <string name="Txta2">1-5 people</string>
+    <string name="Txta3">Rs.1500</string>
+    <string name="Txtb1">Hall B</string>
+    <string name="Txtb2">5-10 people</string>
+    <string name="Txtb3">Rs.3000</string>
+    <string name="Txtc1">Hall C</string>
+    <string name="Txtc2">more than 10</string>
+    <string name="Txtc3">Rs.4000</string>
+    <string name="BtnGoBack">Go Back</string>
+
+    <string name="partyIDError">Enter a valid ID</string>
+    <string name="reservationNameError">Enter a valid Name</string>
+    <string name="contactNumberError">Enter a valid contact number</string>
+    <string name="QuantityError">Enter a valid quantity (between 1-25)</string>
+
 </resources>
