@@ -9,29 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Delivery" />
         <activity
             android:name=".Smoothies"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/products">
-        </activity>
+            android:label="@string/Smoothies"
+            android:parentActivityName="com.example.juicelife.MainActivity" />
         <activity
             android:name=".Mocktails"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/products"/>
+            android:label="@string/Mocktail"
+            android:parentActivityName="com.example.juicelife.MainActivity" />
         <activity
             android:name=".Dessert"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/products"/>
+            android:label="@string/Desserts"
+            android:parentActivityName="com.example.juicelife.MainActivity" />
         <activity
-            android:name=".Cart"
-            android:parentActivityName=".Juice"
-            android:label="@string/shoppingcart"/>
+            android:name="com.example.juicelife.CartActivity"
+            android:parentActivityName=".Juice" />
         <activity
             android:name=".Juice"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/products"/>
-        <activity
-            android:name=".MainActivity">
+            android:label="@string/Juices"
+            android:parentActivityName="com.example.juicelife.MainActivity" />
+        <activity android:name="com.example.juicelife.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
