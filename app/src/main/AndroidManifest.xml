@@ -11,9 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".delCity"></activity>
-        <activity android:name=".ConfirmDelivery" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".DeliveryDetails"
+            android:parentActivityName=".DelCity"></activity>
+        <activity android:name=".Bill"
+            android:parentActivityName=".DeliveryDetails"/>
+        <activity android:name=".DelCity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,6 +31,34 @@
         <activity android:name="CardPayments" android:label="Card Payments" android:parentActivityName=".CardPayments"></activity>
         <activity android:name="CashOnDelivery" android:label="Cash On Delivery" android:parentActivityName=".CashOnDelivery"/>
         <activity android:name=".PaymentMethod">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.juicelife.Smoothies"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Smoothies">
+        </activity>
+        <activity
+            android:name="com.example.juicelife.Mocktails"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Mocktail"/>
+        <activity
+            android:name="com.example.juicelife.Dessert"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Desserts"/>
+        <activity
+            android:name="com.example.juicelife.Cart"
+            android:parentActivityName="com.example.juicelife.Juice"/>
+        <activity
+            android:name="com.example.juicelife.Juice"
+            android:parentActivityName="com.example.juicelife.Home"
+            android:label="@string/Juices"/>
+        <activity
+            android:name="com.example.juicelife.Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
